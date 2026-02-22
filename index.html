@@ -2,32 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Jewellery Store 💎</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karat House Elegance</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Welcome to My Jewellery Store</h1>
-        <p>Elegant designs for every occasion</p>
+        <div class="container">
+            <img src="images/logo.png" alt="Karat House Elegance" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="products">
-        <div class="product">
-            <img src="images/necklace1.jpg" alt="Gold Necklace">
-            <h3>Gold Necklace</h3>
-            <p>$120</p>
-            <button>Buy Now</button>
-        </div>
-        <div class="product">
-            <img src="images/ring1.jpg" alt="Diamond Ring">
-            <h3>Diamond Ring</h3>
-            <p>$250</p>
-            <button>Buy Now</button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Karat House Elegance</h1>
+        <p>Exquisite jewellery crafted for your elegance.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/product1.jpg" alt="Gold Necklace">
+                <h3>Gold Necklace</h3>
+                <p>Elegant 22K gold necklace for every occasion.</p>
+                <a href="https://wa.me/yourwhatsappnumber" class="btn">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="Diamond Ring">
+                <h3>Diamond Ring</h3>
+                <p>Shining diamond ring to sparkle your day.</p>
+                <a href="https://wa.me/yourwhatsappnumber" class="btn">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="images/product3.jpg" alt="Gold Earrings">
+                <h3>Gold Earrings</h3>
+                <p>Stylish gold earrings for everyday elegance.</p>
+                <a href="https://wa.me/yourwhatsappnumber" class="btn">Buy Now</a>
+            </div>
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Karat House Elegance, we craft timeless jewellery that brings luxury and style to your life. Each piece is carefully designed and handcrafted for perfection.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us on WhatsApp:</p>
+        <a href="https://wa.me/yourwhatsappnumber" class="btn">Chat Now</a>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Contact us: WhatsApp / Instagram</p>
+        <p>&copy; 2026 Karat House Elegance. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
